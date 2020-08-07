@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "WKWebViewRTC",
-            dependencies: ["GoogleWebRTC"]),
-            path: "WKWebViewRTC",
+            dependencies: ["GoogleWebRTC"],
+            path: "WKWebViewRTC"),
         .testTarget(
             name: "WKWebViewRTCTests",
             dependencies: ["WKWebViewRTC"]),
