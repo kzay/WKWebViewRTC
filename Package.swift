@@ -12,7 +12,7 @@ let package = Package(
             targets: ["WKWebViewRTC"]),
     ],
     dependencies: [
-        // no dependencies
+        .package(url:"https://github.com/bighitbiker3/GoogleWebRTC", from: "master")
     ],
     targets: [
         .target(
